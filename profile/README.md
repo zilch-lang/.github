@@ -8,9 +8,9 @@ Let me give you a quick recap of how this organisation is managed.
 There are already quite a lot of repositories, but here the most important ones:
 - [`specification`](https://github.com/zilch-lang/specification) contains the TeX source code for the official specification document for the whole project.
   Releases are also created on each push to allow reading the generated PDF without needing to compile everything by hand.
-- [`gzc`](https://github.com/zilch-lang/gzc) contains the source code for the compiler of Zilch.
+- [`zilch`](https://github.com/zilch-lang/zilch) contains the source code for the compiler of Zilch.
   If anything goes wrong with Zilch, feel free to post issues there, we'll be happy to have feedback on it!
-- [`nsc`](https://github.com/zilch-lang/nsc) contains the source code for the compiler of N⋆, the backend for Zilch.
+- [`nstar`](https://github.com/zilch-lang/nstar) contains the source code for the compiler of N⋆, the backend for Zilch.
   Same as for `gzc`, bugs are to be expected, therefore you must go there to report them.
 - [`pkgs`](https://github.com/zilch-lang/pkgs) is an open collection of user-contributed packages.
   If you would like to have your package officially added as a Zilch package, head out there and create a new issue! (all instructions are present in the `CONTRIBUTING.md` file)
